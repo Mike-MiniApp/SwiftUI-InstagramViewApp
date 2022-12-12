@@ -22,21 +22,25 @@ struct AccountInfoView: View {
                     .clipShape(Circle())
 
                 Text(userName)
+                    .bold()
             }
 
             VStack {
                 Text(postCount)
                 Text("投稿")
+                    .font(.system(size: 12))
             }
             .padding()
             VStack {
                 Text(followerCount)
                 Text("フォロワー")
+                    .font(.system(size: 12))
             }
             .padding()
             VStack {
                 Text(followCount)
                 Text("フォロー中")
+                    .font(.system(size: 12))
             }
         }.padding()
     }
