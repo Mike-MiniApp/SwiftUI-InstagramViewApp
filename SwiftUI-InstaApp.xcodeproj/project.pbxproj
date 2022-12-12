@@ -17,7 +17,6 @@
 		95666C092946A35200CE94CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C082946A35200CE94CD /* ProfileView.swift */; };
 		95666C0B2946A35B00CE94CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C0A2946A35B00CE94CD /* HomeView.swift */; };
 		95666C102946A61A00CE94CD /* AccountInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C0F2946A61A00CE94CD /* AccountInfoView.swift */; };
-		95666C122946A97800CE94CD /* MyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C112946A97800CE94CD /* MyIntroductionView.swift */; };
 		95666C8A2946F85900CE94CD /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C892946F85900CE94CD /* HighlightView.swift */; };
 		95666C8C2946FD1C00CE94CD /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C8B2946FD1C00CE94CD /* Story.swift */; };
 		95666C8F2947002700CE94CD /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C8E2947002700CE94CD /* PostListView.swift */; };
@@ -55,7 +54,6 @@
 		95666C082946A35200CE94CD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		95666C0A2946A35B00CE94CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		95666C0F2946A61A00CE94CD /* AccountInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoView.swift; sourceTree = "<group>"; };
-		95666C112946A97800CE94CD /* MyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntroductionView.swift; sourceTree = "<group>"; };
 		95666C892946F85900CE94CD /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
 		95666C8B2946FD1C00CE94CD /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		95666C8E2947002700CE94CD /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			children = (
 				95666C082946A35200CE94CD /* ProfileView.swift */,
 				95666C0F2946A61A00CE94CD /* AccountInfoView.swift */,
-				95666C112946A97800CE94CD /* MyIntroductionView.swift */,
 				95666C892946F85900CE94CD /* HighlightView.swift */,
 				95666C8E2947002700CE94CD /* PostListView.swift */,
 			);
@@ -317,7 +314,6 @@
 				95666C0B2946A35B00CE94CD /* HomeView.swift in Sources */,
 				95666C092946A35200CE94CD /* ProfileView.swift in Sources */,
 				95666C102946A61A00CE94CD /* AccountInfoView.swift in Sources */,
-				95666C122946A97800CE94CD /* MyIntroductionView.swift in Sources */,
 				95666C8A2946F85900CE94CD /* HighlightView.swift in Sources */,
 				95666BA52946A11300CE94CD /* SwiftUI_InstaAppApp.swift in Sources */,
 				95666C8F2947002700CE94CD /* PostListView.swift in Sources */,

@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ProfileView: View {
+    // MARK: - Variables
     @State private var subUserName = "mike_3844"
+
+    // MARK: - View
     var body: some View {
         NavigationStack {
             VStack {
                 AccountInfoView()
-                MyIntroductionView()
                 HighlightView()
+                PostListView()
             }
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {

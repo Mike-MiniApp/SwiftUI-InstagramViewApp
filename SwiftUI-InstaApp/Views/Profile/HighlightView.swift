@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct HighlightView: View {
+    // MARK: Variables
     @State private var highLightArray = [Story(name: "1", image: "1"),Story(name: "2", image: "2"),Story(name: "3", image: "3")]
+
+    // MARK: View
     var body: some View {
         ScrollView(.horizontal) {
             HStack() {
@@ -17,14 +20,14 @@ struct HighlightView: View {
                         ZStack {
                             Image(story.image)
                                 .resizable()
-                                .border(.white,width: 5)
                                 .clipShape(Circle())
+                                .frame(width: 100,height: 100)
                         }
                         Text(story.name)
                     }
                 }
             }
-        }
+        }.padding()
     }
 }
 
