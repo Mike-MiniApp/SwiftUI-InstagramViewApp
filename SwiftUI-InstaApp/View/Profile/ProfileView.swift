@@ -8,10 +8,40 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var subUserName = "mike_3844"
     var body: some View {
-        VStack {
-            AccountInfoView()
-            MyIntroductionView()
+        NavigationStack {
+            VStack {
+                AccountInfoView()
+                MyIntroductionView()
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button {
+                        // 何もしない
+                    } label: {
+                        Image(systemName: "plus.app")
+                            .foregroundColor(.black)
+                    }
+                    Button {
+                        // 何もしない
+                    } label: {
+                        Image(systemName: "menucard")
+                            .foregroundColor(.black)
+                    }
+                }
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        // 何もしない
+                    } label: {
+                        Text(subUserName)
+                            .foregroundColor(.black)
+                            .font(.title)
+                            .bold()
+                    }
+
+                }
+            }
         }
         // TODO: 写真、ユーザ名
 
