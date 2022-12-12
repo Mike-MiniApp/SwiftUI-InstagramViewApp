@@ -14,6 +14,7 @@ struct ProfileView: View {
             VStack {
                 AccountInfoView()
                 MyIntroductionView()
+                HighlightView()
             }
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {

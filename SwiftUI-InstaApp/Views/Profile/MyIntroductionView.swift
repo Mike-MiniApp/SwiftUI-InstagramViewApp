@@ -11,15 +11,18 @@ struct MyIntroductionView: View {
     @State private var introText = "法政大学大学院 | M2 | ラーメン好き"
     var body: some View {
         VStack {
-            Text(introText)
-                .padding()
+            HStack {
+                Text(introText)
+                Spacer()
+            }
+            .padding()
             HStack {
                 Button {
                     // 何もしない
                 } label: {
                     Text("プロフィールを編集")
                         .fontWeight(.medium)
-                        .frame(width: 250, height: 48)
+                        .frame(width: 300, height: 48)
                             .foregroundColor(.black)
                             .background(Color.secondary.opacity(0.3))
                             .cornerRadius(15)
