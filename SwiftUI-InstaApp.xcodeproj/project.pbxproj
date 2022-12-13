@@ -21,6 +21,7 @@
 		95666C8C2946FD1C00CE94CD /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C8B2946FD1C00CE94CD /* Story.swift */; };
 		95666C8F2947002700CE94CD /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C8E2947002700CE94CD /* PostListView.swift */; };
 		95666C912947007C00CE94CD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C902947007C00CE94CD /* Post.swift */; };
+		95666C952948165000CE94CD /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666C942948165000CE94CD /* StoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		95666C8B2946FD1C00CE94CD /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		95666C8E2947002700CE94CD /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		95666C902947007C00CE94CD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		95666C942948165000CE94CD /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				95666C0A2946A35B00CE94CD /* HomeView.swift */,
+				95666C942948165000CE94CD /* StoryView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95666C952948165000CE94CD /* StoryView.swift in Sources */,
 				95666BA72946A11300CE94CD /* ContentView.swift in Sources */,
 				95666C0B2946A35B00CE94CD /* HomeView.swift in Sources */,
 				95666C092946A35200CE94CD /* ProfileView.swift in Sources */,

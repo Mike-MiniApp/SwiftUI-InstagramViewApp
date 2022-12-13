@@ -47,11 +47,6 @@ struct ProfileView: View {
                 }
             }
         }
-        // TODO: 写真、ユーザ名
-
-        // TODO: 自己紹介、プロフィール編集ボタン
-
-        // TODO: 投稿リスト
     }
 }
 

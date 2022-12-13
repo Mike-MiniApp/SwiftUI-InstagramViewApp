@@ -65,7 +65,7 @@ struct AccountInfoView: View {
                         .fontWeight(.medium)
                         .frame(width: 330, height: 40)
                             .foregroundColor(.black)
-                            .background(Color.secondary.opacity(0.3))
+                            .background(Color.secondary.opacity(0.2))
                             .cornerRadius(15)
                 }
                 Button {

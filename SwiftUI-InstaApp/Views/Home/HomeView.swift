@@ -9,7 +9,42 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
+        NavigationStack {
+         StoryView()
+                .toolbar {
+                    ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        Button {
+                            // 何もしない
+                        } label: {
+                            Image(systemName: "plus.app")
+                                .foregroundColor(.black)
+                        }
+                        Button {
+                            // 何もしない
+                        } label: {
+                            Image(systemName: "heart")
+                                .foregroundColor(.black)
+                        }
+                        Button {
+                            // 何もしない
+                        } label: {
+                            Image(systemName: "bubble.left.circle")
+                                .foregroundColor(.black)
+                        }
+                    }
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Button {
+                            // なにもしない
+                        } label: {
+                            Text("Instagram")
+                                .font(.title)
+                                .foregroundColor(.black)
+                                .bold()
+                        }
+
+                    }
+                }
+        }
     }
 }
 

@@ -31,9 +31,9 @@ struct PostListView: View {
             VStack(spacing: 0){
                 Picker("画面切り替え", selection: $selection) {
                     Image(systemName: "square.grid.3x3.fill")
-
                     Image(systemName: "person.circle")
                 }.pickerStyle(SegmentedPickerStyle())
+                    .background(Color.white.opacity(0.3))
             }
             ScrollView(.vertical) {
                 LazyVGrid(columns: columns) {
