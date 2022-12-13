@@ -33,7 +33,7 @@ struct PostListView: View {
                     Image(systemName: "square.grid.3x3.fill")
 
                     Image(systemName: "person.circle")
-                }.pickerStyle(SegmentedPickerStyle()).padding()
+                }.pickerStyle(SegmentedPickerStyle())
             }
             ScrollView(.vertical) {
                 LazyVGrid(columns: columns) {

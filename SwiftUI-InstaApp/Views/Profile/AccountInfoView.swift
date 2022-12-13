@@ -44,7 +44,7 @@ struct AccountInfoView: View {
                         .font(.system(size: 12))
                 }
                 .padding()
-            }
+            }.padding(.top)
             VStack {
                 HStack {
                         Text(userName)
@@ -55,7 +55,7 @@ struct AccountInfoView: View {
                     Text(introText)
                         Spacer()
                 }
-            }.padding()
+            }.padding(.leading)
 
             HStack {
                 Button {

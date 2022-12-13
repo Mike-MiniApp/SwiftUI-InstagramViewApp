@@ -21,7 +21,7 @@ struct HighlightView: View {
                             Image(story.image)
                                 .resizable()
                                 .clipShape(Circle())
-                                .frame(width: 100,height: 100)
+                                .frame(width: 70,height: 70)
                         }
                         Text(story.name)
                     }
