@@ -9,7 +9,6 @@ import Foundation
 
 struct Post: Identifiable {
     let id = UUID()
-    let name: String
     let image: String
     let comment: String
     let userName: String

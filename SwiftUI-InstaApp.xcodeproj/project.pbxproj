@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950B56A9294955A5001FC0C1 /* FollowPostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950B56A8294955A5001FC0C1 /* FollowPostListView.swift */; };
 		95666BA52946A11300CE94CD /* SwiftUI_InstaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666BA42946A11300CE94CD /* SwiftUI_InstaAppApp.swift */; };
 		95666BA72946A11300CE94CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95666BA62946A11300CE94CD /* ContentView.swift */; };
 		95666BA92946A11400CE94CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95666BA82946A11400CE94CD /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		950B56A8294955A5001FC0C1 /* FollowPostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowPostListView.swift; sourceTree = "<group>"; };
 		95666BA12946A11300CE94CD /* SwiftUI-InstaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-InstaApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95666BA42946A11300CE94CD /* SwiftUI_InstaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_InstaAppApp.swift; sourceTree = "<group>"; };
 		95666BA62946A11300CE94CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				95666C0A2946A35B00CE94CD /* HomeView.swift */,
 				95666C942948165000CE94CD /* StoryView.swift */,
+				950B56A8294955A5001FC0C1 /* FollowPostListView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950B56A9294955A5001FC0C1 /* FollowPostListView.swift in Sources */,
 				95666C952948165000CE94CD /* StoryView.swift in Sources */,
 				95666BA72946A11300CE94CD /* ContentView.swift in Sources */,
 				95666C0B2946A35B00CE94CD /* HomeView.swift in Sources */,

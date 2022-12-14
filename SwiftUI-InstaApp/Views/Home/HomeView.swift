@@ -10,7 +10,11 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationStack {
-         StoryView()
+            VStack {
+                StoryView()
+                    .padding()
+                FollowPostListView()
+            }
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
                         Button {

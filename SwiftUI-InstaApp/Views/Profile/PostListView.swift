@@ -9,16 +9,16 @@ import SwiftUI
 
 struct PostListView: View {
     // MARK: - Variables
-    @State private var postArray = [Post(name: "1", image: "1", comment: "", userName: "", profileImage: ""),
-    Post(name: "2", image: "2", comment: "", userName: "", profileImage: ""),
-    Post(name: "3", image: "3", comment: "", userName: "", profileImage: ""),
-    Post(name: "4", image: "4", comment: "", userName: "", profileImage: ""),
-    Post(name: "5", image: "5", comment: "", userName: "", profileImage: ""),
-    Post(name: "6", image: "6", comment: "", userName: "", profileImage: ""),
-    Post(name: "7", image: "7", comment: "", userName: "", profileImage: ""),
-    Post(name: "8", image: "8", comment: "", userName: "", profileImage: ""),
-    Post(name: "9", image: "9", comment: "", userName: "", profileImage: ""),
-    Post(name: "10", image: "10", comment: "", userName: "", profileImage: "")
+    @State private var postArray = [Post(image: "1", comment: "", userName: "", profileImage: ""),
+    Post(image: "2", comment: "", userName: "", profileImage: ""),
+    Post(image: "3", comment: "", userName: "", profileImage: ""),
+    Post(image: "4", comment: "", userName: "", profileImage: ""),
+    Post(image: "5", comment: "", userName: "", profileImage: ""),
+    Post(image: "6", comment: "", userName: "", profileImage: ""),
+    Post(image: "7", comment: "", userName: "", profileImage: ""),
+    Post(image: "8", comment: "", userName: "", profileImage: ""),
+    Post(image: "9", comment: "", userName: "", profileImage: ""),
+    Post(image: "10", comment: "", userName: "", profileImage: "")
     ]
 
     var columns: [GridItem] = Array(repeating: .init(.flexible(),spacing: 10,alignment: .center), count: 3)
