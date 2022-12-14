@@ -21,7 +21,7 @@ struct PostListView: View {
     Post(image: "10", comment: "", userName: "", profileImage: "")
     ]
 
-    var columns: [GridItem] = Array(repeating: .init(.flexible(),spacing: 10,alignment: .center), count: 3)
+    var columns: [GridItem] = Array(repeating: .init(.flexible(),spacing: 2,alignment: .center), count: 3)
 
     @State private var selection = 0
 
@@ -36,7 +36,7 @@ struct PostListView: View {
                     .background(Color.white.opacity(0.3))
             }
             ScrollView(.vertical) {
-                LazyVGrid(columns: columns) {
+                LazyVGrid(columns: columns,spacing: 2) {
                     ForEach(postArray) { post in
                         Color.white
                             .aspectRatio(1, contentMode: .fill)
@@ -48,6 +48,7 @@ struct PostListView: View {
                             .clipped()
                     }
                 }
+                .padding(2)
             }
         }
     }
