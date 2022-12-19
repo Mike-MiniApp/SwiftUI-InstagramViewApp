@@ -11,7 +11,6 @@ struct FollowPostListView: View {
     @State private var postArray = [Post(image: "1", comment: "綺麗な景色！", userName: "gohan", profileImage: "gohan"),Post(image: "ムキムキフリーザ", comment: "フルパワー疲れる", userName: "フリーザ", profileImage: "フリーザ"),Post(image: "イケメンセル", comment: "俺かっこよくね？", userName: "セル", profileImage: "セル"),Post(image: "家族", comment: "家族", userName: "ゴテン", profileImage: "ゴテン")]
 
     var body: some View {
-        List {
             ForEach(postArray) { post in
                 VStack(alignment: .leading) {
                     HStack {
@@ -23,12 +22,15 @@ struct FollowPostListView: View {
                         Text(post.userName)
                             .bold()
                         Spacer()
+                        Image(systemName: "list.bullet")
                     }
 
                     Image(post.image)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 393)
+                        .scaledToFill()
+                        .frame(width: UIScreen.main.bounds.width,height: UIScreen.main.bounds.width,alignment: .center)
+                        .clipShape(Rectangle())
+
                     HStack {
                         Button {
                             // 何もしない
@@ -46,13 +48,21 @@ struct FollowPostListView: View {
                             Image(systemName: "paperplane")
                         }
                         Spacer()
-                    }.padding(.vertical)
-                    
+                    }.padding(EdgeInsets(
+                        top: 0,        // 上の余白
+                        leading: 10,    // 左の余白
+                        bottom: 5,     // 下の余白
+                        trailing: 10    // 右の余白
+                    ))
                     Text(post.comment)
-                        .padding(.bottom)
+                        .padding(EdgeInsets(
+                            top: 0,        // 上の余白
+                            leading: 10,    // 左の余白
+                            bottom: 20,     // 下の余白
+                            trailing: 10    // 右の余白
+                        ))
                 }
             }
-        }.listStyle(.plain)// Listを横幅いっぱいに
     }
 }
 

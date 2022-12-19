@@ -10,10 +10,12 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                StoryView()
-                    .padding()
-                FollowPostListView()
+            ScrollView(.vertical,showsIndicators: false) {
+                VStack {
+                    StoryView()
+                        .padding()
+                    FollowPostListView()
+                }
             }
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
